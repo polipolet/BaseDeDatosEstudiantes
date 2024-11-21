@@ -18,6 +18,7 @@ class Clave:
     def __init__(self,nombre,es_unica):
         self.nombre = nombre
         self.unica = es_unica
+        #hola
 
     ##@brief Retorna el nombre de la clave
     #
