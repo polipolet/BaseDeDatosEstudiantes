@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<!--
+    Test 3: comando con CLAVE ERRÓNEA. No se añade fila
+    Estado deespues: como el de antes
+    -->
+    <BaseDatos>
+	<Tabla nombre="coches">
+	 	<Esquema>
+	 		<clave nombre="marca" unica="false"/>
+	 		<clave nombre="modelo" unica="false"/>
+	 		<clave nombre="matricula" unica="true"/>
+	 	</Esquema>
+	 </Tabla>
+  	<Tabla nombre="multas">
+	 	<Esquema>
+	 		<clave nombre="matricula" unica="true"/>
+	 		<clave nombre="cuantia" unica="false"/>
+	 	</Esquema>
+	 </Tabla>
+ </BaseDatos>
+	 

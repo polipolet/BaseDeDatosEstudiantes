@@ -1,0 +1,8 @@
+coches crea marca modelo *matricula
+coches añade marca=Ferrari modelo=Testarrossa matricula=1566GGH
+coches añade marca=Ford modelo=Escort matricula=4566GGH
+coches añade marca=Seat modelo=Córdoba matricula=4456GVG
+multas crea matricula cuantía
+multas añade matricula=2345FXZ cuantía=101
+multas añade matricula=B1234XD cuantía=100
+multas añade matricula=B1234XD cuantía=60

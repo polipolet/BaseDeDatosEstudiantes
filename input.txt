@@ -1,0 +1,32 @@
+coches crea marca modelo *matricula
+coches añade marca=Seat modelo=Ibiza matricula=B1234XD
+coches añade marca=Seat modelo=Córdoba matricula=4456GVG
+coches añade marca=Aston_Martin modelo=520 matricula=B1234XD
+coches añade marca=Ford modelo=Fiesta matricula=2345FXZ
+coches añade marca=Ford modelo=Escort matricula=4566GGH
+coches añade marca=Ferrari modelo=Testarrossa matricula=1566GGH
+coches ordena marca
+coches busca
+multas crea matricula cuantía
+multas añade matricula=B1234XD cuantía=100
+multas añade matricula=2345FXZ cuantía=101
+multas añade matricula=B1234XD cuantía=60
+multas busca
+multas ordena cuantía
+multas busca
+multas ordena cuantía desc
+multas busca
+coches busca marca=Seat
+coches busca marca#eat
+películas busca título#clar
+coches elimina modelo#i
+coches busca
+multas añade año=1234
+multas busca cuantía>80
+multas busca cuantía<80
+coches busca
+multas busca
+tablaquenoexiste ordena clave
+multas ordena dueño
+exporta ../exportacion20240712.txt
+salir

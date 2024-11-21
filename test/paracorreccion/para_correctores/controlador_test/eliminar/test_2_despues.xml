@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<!--
+  T est 2: intento de eliminación sin criterio. Se devuelve lista vacia. No se altera la base de datos
+    -->
+<BaseDatos>
+	<Tabla nombre="coches">
+	 	<Esquema>
+	 		<clave nombre="marca" unica="false"/>
+	 		<clave nombre="modelo" unica="false"/>
+	 		<clave nombre="matricula" unica="true"/>
+	 	</Esquema>
+	 	<Fila>
+	 	   <marca>Seat</marca>
+	 	   <modelo>Ibiza</modelo>
+	 	   <matricula>B1234XD</matricula>
+	 	</Fila>
+	 	<Fila>
+	 	   <marca>Seat</marca>
+	 	   <modelo>Córdoba</modelo>
+	 	   <matricula>4456GVG</matricula>
+	 	</Fila>
+	 	<Fila>
+	 	   <marca>Ford</marca>
+	 	   <modelo>Fiesta</modelo>
+	 	   <matricula>2345FXZ</matricula>
+	 	</Fila>
+	 	<Fila>
+	 	   <marca>Ferrari</marca>
+	 	   <modelo>Testarrossa</modelo>
+	 	   <matricula>1566GGH</matricula>
+	 	</Fila>
+	 	<Fila>
+	 	   <marca>Ford</marca>
+	 	   <modelo>Escort</modelo>
+	 	   <matricula>4566GGH</matricula>
+	 	</Fila>
+	 </Tabla>
+	<Tabla nombre="multas">
+	 	<Esquema>
+	 		<clave nombre="matricula" unica="true"/>
+	 		<clave nombre="cuantia" unica="false"/>
+	 	</Esquema>
+	 	<Fila>
+	 	   <matricula>B1234XD</matricula>
+	 	   <cuantia>100</cuantia>
+	 	</Fila>
+	 	<Fila>
+	 	   <matricula>2345FXZ</matricula>
+	 	   <cuantia>101</cuantia>
+	 	</Fila>
+	 	<Fila>
+	 	   <matricula>B1234XD</matricula>
+	 	   <cuantia>60</cuantia>
+	 	</Fila>
+	 	<Fila>
+	 	   <matricula>1566GGH</matricula>
+	 	   <cuantia>100</cuantia>
+	 	</Fila>
+	 </Tabla>
+
+</BaseDatos>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<!--
+    Test 2: comando con dos claves idénticas. Debe lanzarse y recogerse internamente una  excepción ClaveYaExisteException, 
+    debe enviarse un mensaje al interfaz de usuario y debe generarse la tabla
+    Estado antes
+    -->
+ <BaseDatos>
+ </BaseDatos>
+	 

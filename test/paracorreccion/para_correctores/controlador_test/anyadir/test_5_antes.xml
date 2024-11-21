@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<!--
+    Test 5: comando CLAVE ÚNICA REPETIDA. No debería añadirse nada
+    Estado antes
+    -->
+    <BaseDatos>
+	<Tabla nombre="coches">
+	 	<Esquema>
+	 		<clave nombre="marca" unica="false"/>
+	 		<clave nombre="modelo" unica="false"/>
+	 		<clave nombre="matricula" unica="true"/>
+	 	</Esquema>
+	 	<Fila>
+	 	   <matricula>1234GGD</matricula>
+	 	   <marca>Seat</marca>
+	 	   <modelo>Ibiza</modelo>
+	 	</Fila>>
+	 </Tabla>
+  	<Tabla nombre="multas">
+	 	<Esquema>
+	 		<clave nombre="matricula" unica="true"/>
+	 		<clave nombre="cuantia" unica="false"/>
+	 	</Esquema>
+	 </Tabla>
+ </BaseDatos>
+	 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with XMLSpear -->
+<!--
+    Test 3: comando que intenta generar una tabla con nombre ya asociado a otra tabla. Debe presentarse un mensaje y NO crear ninguna tabla
+    Estado despues: como la de antes
+    -->
+<BaseDatos>
+   	<Tabla nombre="coches">
+	 	<Esquema>
+	 		<clave nombre="marca" unica="false"/>
+	 		<clave nombre="matricula" unica="true"/>
+	 	</Esquema>
+	</Tabla>
+</BaseDatos>
+	 
